@@ -7,15 +7,6 @@ Forked off MiniSAT 2.2, this repository aims at providing
 a production-ready version of the famous library.
 
 
-Known limitations (aka TODO)
-----------------------------
-
-1. `libgz` library was removed. Please use `gunzip | minisat` instead.
-2. Memory and CPU limits/stats are not supported well on all platforms.
-
-Keen to help? Feel free to fork!
-
-
 
 Directory overview
 ------------------
