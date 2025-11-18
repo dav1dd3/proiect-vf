@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libminisat.a CMakeFiles/libminisat.dir/minisat/core/OutOfMemoryException.cc.obj CMakeFiles/libminisat.dir/minisat/core/Solver.cc.obj CMakeFiles/libminisat.dir/minisat/core/SolverTypes.cc.obj CMakeFiles/libminisat.dir/minisat/core/ThrowOOMException.cc.obj CMakeFiles/libminisat.dir/minisat/utils/Options.cc.obj CMakeFiles/libminisat.dir/minisat/utils/System.cc.obj CMakeFiles/libminisat.dir/minisat/simp/SimpSolver.cc.obj
+C:\MinGW\bin\ranlib.exe libminisat.a
