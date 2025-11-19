@@ -42,11 +42,11 @@ Run MiniSAT on macOS
 Run in terminal:
 
 ```bash
-  minisat file.cnf # it will display in console the results
+minisat file.cnf # it will display in console the results
 ```
 
 or 
 
 ```bash
-  minisat file.cnf output.txt # it will display in console the results and in `output.txt` - SAT/UNSAT
+minisat file.cnf output.txt # it will display in console the results and in `output.txt` - SAT/UNSAT
 ```
