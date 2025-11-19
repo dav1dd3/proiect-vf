@@ -49,9 +49,10 @@ Run MiniSAT on Windows
 Run this command in terminal:
 
 ```bash
-.\minisat.exe input.txt`
+.\minisat.exe input.txt
 ```
-be sure to run it in the build directory.
+or instead of `input.txt` it can be writen the name of the cnf file.
+Be sure to run it in the build directory.
 
  in the newly created directory.
 
