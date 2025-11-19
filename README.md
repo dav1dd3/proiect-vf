@@ -37,12 +37,12 @@ Building for Windows
    Make sure that the directories of MinGW and CMake that you extracted are included in the PATH environment variables.
 2. Clone this [git repository](https://github.com/master-keying/minisat/) to your local environment.
 3. Create a directory in the root directory of the repository.
-4. Run `bash cmake -G "MinGW Makefiles" .. ` in the new created directory.
-5. Run `bash cmake --build .` to compile the Makefiles generated in the previous step.
+4. Run `cmake -G "MinGW Makefiles" .. ` in the new created directory.
+5. Run `cmake --build .` to compile the Makefiles generated in the previous step.
 6. To use MiniSAT you need to create a text file input.txt and fill it with the DIMACS format of your formula.
 
 Run MiniSAT
 ========
 
-Run `bash .\minisat.exe input.txt` in the newly created directory.
+Run `.\minisat.exe input.txt` in the newly created directory.
 
