@@ -27,7 +27,9 @@ Installing MiniSAT on macOS using Homebrew
 
 Run this command in terminal:
 
+```bash
 brew install minisat
+```
 
 Run MiniSAT on Windows
 ========
@@ -37,7 +39,14 @@ Run `.\minisat.exe input.txt` in the newly created directory.
 Run MiniSAT on macOS
 ========
 
-Run `minisat file.cnf` in terminal and it will display in console the results
+Run in terminal:
 
-or `minisat file.cnf output.txt` and it will display in console the results and in `output.txt` - SAT/UNSAT
+```bash
+  minisat file.cnf # it will display in console the results
+```
 
+or 
+
+```bash
+  minisat file.cnf output.txt # it will display in console the results and in `output.txt` - SAT/UNSAT
+```
