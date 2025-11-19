@@ -3,8 +3,7 @@
 [![Build Status](https://travis-ci.org/master-keying/minisat.svg?branch=master)](https://travis-ci.org/master-keying/minisat)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/master-keying/minisat?svg=true)](https://ci.appveyor.com/project/horenmar/minisat)
 
-Forked off MiniSAT 2.2, this repository aims at providing
-a production-ready version of the famous library.
+Forked off MiniSAT 2.2.
 
 
 
@@ -31,9 +30,19 @@ cmake ..
 make
 ```
 
-Examples
+Building for Windows
+--------
+
+1. Install the prerequisite software, in this case MinGW and CMake if it isn't alredy installed.
+   Make sure that the directories of MinGW and CMake that you extracted are included in the PATH environment variables.
+2. Clone this [git repository](https://github.com/master-keying/minisat/) to your local environment.
+3. Create a directory in the root directory of the repository.
+4. Run `bash cmake -G "MinGW Makefiles" .. ` in the new created directory.
+5. Run `bash cmake --build .` to compile the Makefiles generated in the previous step.
+6. To use MiniSAT you need to create a text file input.txt and fill it with the DIMACS format of your formula.
+
+Run MiniSAT
 ========
 
-Run minisat with same heuristics as version 2.0:
+Run `bash .\minisat.exe input.txt` in the newly created directory.
 
-```minisat <cnf-file> -no-luby -rinc=1.5 -phase-saving=0 -rnd-freq=0.02```
