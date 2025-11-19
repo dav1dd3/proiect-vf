@@ -18,8 +18,7 @@ Directory overview
 - `LICENSE`         Licence files
 
 
-
-Building
+Building for Linux
 --------
 
 ```bash
@@ -30,8 +29,8 @@ cmake ..
 make
 ```
 
-Building for Windows
---------
+Run MiniSAT on Windows
+========
 
 1. Install the prerequisite software, in this case MinGW and CMake if it isn't alredy installed.
    Make sure that the directories of MinGW and CMake that you extracted are included in the PATH environment variables.
