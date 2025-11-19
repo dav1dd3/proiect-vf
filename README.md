@@ -56,5 +56,6 @@ Run MiniSAT on macOS
 ========
 
 Run `minisat file.cnf` in terminal and it will display in console the results
+
 or `minisat file.cnf output.txt` and it will display in console the results and in the `output.txt` file only if it is SAT/UNSAT
 
