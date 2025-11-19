@@ -18,8 +18,7 @@ Directory overview
 - `LICENSE`         Licence files
 
 
-
-Building
+Building for Linux
 --------
 
 ```bash
@@ -30,15 +29,11 @@ cmake ..
 make
 ```
 
-Building for Windows
---------
+Run MiniSAT on Windows
+========
 
 1. Clone this git repository to your local environment.
 2. Open the build directory in the root directory of the repository.
 3. To use MiniSAT you need to fill input.txt with the DIMACS format of your formula.
-
-Run MiniSAT
-========
-
-Run `.\minisat.exe input.txt` in the newly created directory.
+4. Run `.\minisat.exe input.txt` in the newly created directory.
 
