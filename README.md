@@ -18,14 +18,14 @@ Installing MiniSAT on Windows
    Make sure that the directories of MinGW and CMake that you extracted are included in the PATH environment variables.
 2. Clone this [git repository](https://github.com/master-keying/minisat/) to your local environment.
 3. Create a directory in the root directory of the repository.
-4. Run
+4. Run in terminal:
    
    ```bash
    cmake -G "MinGW Makefiles" ..
    ```
    
-   in the new created directory.
-5. Run
+   in the new directory.
+5. Run in terminal:
 
    ```bash
    cmake --build .
@@ -46,11 +46,12 @@ brew install minisat
 Run MiniSAT on Windows
 ========
 
-Run 
+Run this command in terminal:
 
 ```bash
 .\minisat.exe input.txt`
 ```
+be sure to run it in the build directory.
 
  in the newly created directory.
 
