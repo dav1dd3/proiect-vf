@@ -1,4 +1,4 @@
-# Proiect Verificare Formală
+# VF PROJECT
 
 Building for Linux
 --------
