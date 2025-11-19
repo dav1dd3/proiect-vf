@@ -32,7 +32,7 @@ Installing MiniSAT on Windows
    ``` 
 
    to compile the Makefiles generated in the previous step.
-6. To use MiniSAT you need to create a text file input.txt and fill it with the DIMACS format of your formula.
+6. To use MiniSAT you need to create a text file input.txt and fill it with the DIMACS format of your formula or you can use a file in the cnf format.
 
 Installing MiniSAT on macOS using Homebrew
 --------
