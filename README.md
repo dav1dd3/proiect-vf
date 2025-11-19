@@ -29,7 +29,7 @@ cmake ..
 make
 ```
 
-Run MiniSAT on Windows
+Installing MiniSAT on Windows
 ========
 
 1. Install the prerequisite software, in this case MinGW and CMake if it isn't alredy installed.
@@ -40,7 +40,7 @@ Run MiniSAT on Windows
 5. Run bash cmake --build . to compile the Makefiles generated in the previous step.
 6. To use MiniSAT you need to create a text file input.txt and fill it with the DIMACS format of your formula.
 
-Installing on macOS using Homebrew
+Installing MiniSAT on macOS using Homebrew
 --------
 
 Run this command in terminal:
