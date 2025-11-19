@@ -51,10 +51,8 @@ Run this command in terminal:
 ```bash
 .\minisat.exe input.txt
 ```
-or instead of `input.txt` it can be writen the name of the cnf file.
+or instead of `input.txt` it can be writen the name of the cnf file, but the file needs to be moved in the build directory.
 Be sure to run it in the build directory.
-
- in the newly created directory.
 
 Run MiniSAT on macOS
 ========
